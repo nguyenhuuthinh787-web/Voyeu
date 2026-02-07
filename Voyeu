@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<title>Gửi Crush 💖</title>
+<style>
+    body {
+        margin: 0;
+        height: 100vh;
+        background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Segoe UI', sans-serif;
+        overflow: hidden;
+    }
+
+    .card {
+        background: white;
+        padding: 30px;
+        border-radius: 20px;
+        text-align: center;
+        box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+        animation: float 3s ease-in-out infinite;
+    }
+
+    h1 {
+        color: #ff4b6e;
+    }
+
+    p {
+        font-size: 18px;
+    }
+
+    button {
+        margin-top: 20px;
+        padding: 12px 25px;
+        font-size: 16px;
+        border: none;
+        border-radius: 30px;
+        background: #ff4b6e;
+        color: white;
+        cursor: pointer;
+        transition: 0.3s;
+    }
+
+    button:hover {
+        background: #ff1e50;
+        transform: scale(1.1);
+    }
+
+    @keyframes float {
+        0%, 100% { transform: translateY(0); }
+        50% { transform: translateY(-10px); }
+    }
+</style>
+</head>
+
+<body>
+<div class="card">
+    <h1>💌 Gửi đến người mình thích</h1>
+    <p>Mình thích bạn rất nhiều 🥰</p>
+    <button onclick="alert('Cảm ơn bạn đã đọc 💖')">Nhấn vào đây</button>
+</div>
+</body>
+</html>
